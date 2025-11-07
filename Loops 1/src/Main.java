@@ -54,10 +54,14 @@ public class Main {
         System.out.println(number2);
 
     // 5
-        int sum = 0;
-        for(int i=100; i <= 999; i++){
-            sum += i;
-            if(i % sum == 0){
+        for (int i = 100; i <= 999; i++) {
+            int num1 = i / 100;
+            int num2 = (i / 10) % 10;
+            int num3 = i % 10;
+
+            int sum = num1 + num2 + num3;
+
+            if (i % sum == 0) {
                 System.out.println(i);
             }
         }
