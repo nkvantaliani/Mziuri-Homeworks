@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Loops 1/Loops 1.iml" filepath="$PROJECT_DIR$/Loops 1/Loops 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mziuri.iml" filepath="$PROJECT_DIR$/Mziuri.iml" />
       <module fileurl="file://$PROJECT_DIR$/Variables/Variables.iml" filepath="$PROJECT_DIR$/Variables/Variables.iml" />
       <module fileurl="file://$PROJECT_DIR$/Variables 2/Variables 2.iml" filepath="$PROJECT_DIR$/Variables 2/Variables 2.iml" />
