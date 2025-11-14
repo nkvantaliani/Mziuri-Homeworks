@@ -70,7 +70,7 @@ public class Main {
 //        }
 //        System.out.println(multp);
 //        // 3
-//        double avg = multp / a.length;
+//        double avg = sum / a.length;
 //        System.out.println(avg);
      // 6
 //        Random random = new Random();
