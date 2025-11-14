@@ -48,21 +48,23 @@ public class Main {
 //        System.out.println(bin);
 
       // 6
-        Random random = new Random();
-        int x = random.nextInt(100) + 1;
-        Scanner input = new Scanner(System.in);
-        int guess;
-        do {
-            System.out.print("guess the number from 1 to 100: ");
-            guess = input.nextInt();
-            if(guess > x){
-                System.out.println("enter lower number");
-            } else if (guess < x) {
-                System.out.println("enter higher number");
-            }else {
-                System.out.println("nice guess");
-            }
-        }while (guess != x);
+//        Random random = new Random();
+//        int x = random.nextInt(100) + 1;
+//        Scanner input = new Scanner(System.in);
+//        int guess;
+//        do {
+//            System.out.print("guess the number from 1 to 100: ");
+//            guess = input.nextInt();
+//            if(guess > x){
+//                System.out.println("enter lower number");
+//            } else if (guess < x) {
+//                System.out.println("enter higher number");
+//            }else {
+//                System.out.println("nice guess");
+//            }
+//        }while (guess != x);
+
+
 
     }
 }
