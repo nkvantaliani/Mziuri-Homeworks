@@ -71,18 +71,18 @@ public class Main {
 //        }
 //        System.out.println(res.toString());
         // 7
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("enter word: ");
-//        String text = scanner.nextLine();
-//        if (text.length() > 10) {
-//            char first = text.charAt(0);
-//            char last = text.charAt(text.length() - 1);
-//            int middle = text.length() - 2;
-//
-//            System.out.println(first + String.valueOf(middle) + last);
-//        } else {
-//            System.out.println("not long word");
-//        }
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("enter word: ");
+        String text = scanner.nextLine();
+        if (text.length() > 10) {
+            char first = text.charAt(0);
+            char last = text.charAt(text.length() - 1);
+            int middle = text.length() - 2;
+
+            System.out.println(first + String.valueOf(middle) + last);
+        } else {
+            System.out.println("not long word");
+        }
 
 
 
