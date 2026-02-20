@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Task3 {
+public class Hw3 {
     public static void main(String[] args) {
         int[] arr = new int[5];
         Random random = new Random();
