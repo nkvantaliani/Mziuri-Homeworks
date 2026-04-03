@@ -35,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/Variables/Variables.iml" filepath="$PROJECT_DIR$/Variables/Variables.iml" />
       <module fileurl="file://$PROJECT_DIR$/Variables 2/Variables 2.iml" filepath="$PROJECT_DIR$/Variables 2/Variables 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaFX3/javaFX3.iml" filepath="$PROJECT_DIR$/javaFX3/javaFX3.iml" />
     </modules>
   </component>
 </project>

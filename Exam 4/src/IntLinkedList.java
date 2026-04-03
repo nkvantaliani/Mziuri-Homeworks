@@ -244,6 +244,7 @@ public class IntLinkedList {
         return arr;
     }
 
+
     public String toString(){
         String res = "[";
         Node temp = head;
