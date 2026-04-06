@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hw1.RadioController">
+   <children>
+      <RadioButton fx:id="cat" layoutX="37.0" layoutY="192.0" mnemonicParsing="false" text="cat" />
+      <RadioButton fx:id="dog" layoutX="177.0" layoutY="192.0" mnemonicParsing="false" text="dog" />
+      <RadioButton fx:id="bunny" layoutX="312.0" layoutY="192.0" mnemonicParsing="false" text="bunny" />
+      <RadioButton fx:id="bird" layoutX="457.0" layoutY="192.0" mnemonicParsing="false" text="bird" />
+      <Text fill="#ff4885" layoutX="175.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="choose your pet" wrappingWidth="274.33514404296875">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+
+      <Button layoutX="260.0" layoutY="252.0" mnemonicParsing="false" onAction="#choose" style="-fx-background-color: pink;" text="choose" />
+      <TextField fx:id="name" layoutX="226.0" layoutY="120.0" promptText="ex:bunny" />
+      <Label fx:id="result" layoutX="273.0" layoutY="79.0" />
+   </children>
+</AnchorPane>
