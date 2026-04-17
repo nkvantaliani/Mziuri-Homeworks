@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Spinner fx:id="amount" layoutX="232.0" layoutY="188.0" />
+      <ChoiceBox fx:id="from" layoutX="44.0" layoutY="188.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="to" layoutX="406.0" layoutY="188.0" prefWidth="150.0" />
+      <Label fx:id="result" layoutX="181.0" layoutY="238.0" prefHeight="130.0" prefWidth="251.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Text layoutX="150.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Currency Exchange App">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
