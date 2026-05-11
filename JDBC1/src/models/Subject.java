@@ -1,3 +1,5 @@
+package models;
+
 public class Subject {
     private int id;
     private String subjectName;
@@ -25,7 +27,7 @@ public class Subject {
 
     @Override
     public String toString() {
-        return "Subject{" +
+        return "models.Subject{" +
                 "id=" + id +
                 ", subjectName='" + subjectName + '\'' +
                 '}';
